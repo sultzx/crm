@@ -1,0 +1,5 @@
+{
+    "port": 5050,
+    "mongodbUrl": "mongodb+srv://crmuser:l5JLvdTVBxnmDod0@cluster0.ja1ehfb.mongodb.net/crm_DB?authMechanism=DEFAULT",
+    "jwt_key": "qwerty"
+} 
