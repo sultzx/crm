@@ -140,7 +140,7 @@ const Chat = () => {
                                                 
                                             </Col>
                                             <Col md={'6'}>
-                                                <img src={`http://localhost:5050${message?.sender?.avatar}`} style={{
+                                                <img src={`https://crm-mm45.onrender.com/${message?.sender?.avatar}`} style={{
                                                     border: '1px solid #586AFF',
                                                     borderRadius: '4px'
                                                 }} width={'70px'} height={'70px'} alt="" />
@@ -164,7 +164,7 @@ const Chat = () => {
                                 <Col md={"2"} className="text-end">
                                         <Row>
                                         <Col md={'6'}>
-                                                <img src={`http://localhost:5050${message?.sender?.avatar}`} style={{
+                                                <img src={`https://crm-mm45.onrender.com/${message?.sender?.avatar}`} style={{
                                                     border: '1px solid #586AFF',
                                                     borderRadius: '4px'
                                                 }} width={'70px'} height={'70px'} alt="" />

@@ -77,12 +77,12 @@ const Order = ({ order, i, userData }) => {
                                 }}>
                                     <label style={{ color: '#5465FF', fontSize: '18px', fontWeight: '600' }}>{img?.name}</label>
                                     <br />
-                                    <img src={`http://localhost:5050${img?.url}`}
+                                    <img src={`https://crm-mm45.onrender.com/${img?.url}`}
                                         style={{
                                             background: 'url(https://www.pngall.com/wp-content/uploads/2018/05/Files-High-Quality-PNG.png)',
                                             backgroundSize: 'cover'
                                         }}
-                                        onClick={() => window.location.assign(`http://localhost:5050${img?.url}`)}
+                                        onClick={() => window.location.assign(`https://crm-mm45.onrender.com/${img?.url}`)}
                                         className="order-img img-fluid an-img"  alt="" />
                                 </div>
                             </Col>

@@ -151,7 +151,7 @@ const Chat = () => {
                                     {recipientOptions.map((option) => (
                                         <option key={option.value} value={option.value}>
                                             {option.text}
-                                            <img src={`http://localhost:5050${option.image}`} alt="sdcdsv" />
+                                            <img src={`https://crm-mm45.onrender.com/${option.image}`} alt="sdcdsv" />
                                         </option>
                                     ))}
                                 </Form.Select>
@@ -260,7 +260,7 @@ const Chat = () => {
                                                     <Col md={2} className="d-flex align-items-center">{chat.name}</Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-end">{`${chat?.recipient?.lastname} ${(chat?.recipient?.firstname)?.substring(0, 1).toUpperCase()}.
                                 ${(chat?.recipient?.patronymic)?.substring(0, 1).toUpperCase()}.
-                               `} <br /> {chat?.recipient?.email} <img src={`http://localhost:5050${chat?.recipient?.avatar}`} style={{
+                               `} <br /> {chat?.recipient?.email} <img src={`https://crm-mm45.onrender.com/${chat?.recipient?.avatar}`} style={{
                                                             margin: 'auto 12px', border: '1px solid',
                                                         }} width={'60px'} height={'60px'} alt="" /></Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-center">
@@ -268,7 +268,7 @@ const Chat = () => {
                                                     </Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-end">{`${chat?.maker?.lastname} ${(chat?.maker?.firstname)?.substring(0, 1).toUpperCase()}.
                                 ${(chat?.maker?.patronymic)?.substring(0, 1).toUpperCase()}.
-                               `} <br /> {chat?.maker?.email} <img src={`http://localhost:5050${chat?.maker?.avatar}`} style={{
+                               `} <br /> {chat?.maker?.email} <img src={`https://crm-mm45.onrender.com/${chat?.maker?.avatar}`} style={{
                                                             margin: 'auto 12px', border: '1px solid',
                                                         }} width={'60px'} height={'60px'} alt="" /></Col>
                                                 </Row>
@@ -316,7 +316,7 @@ const Chat = () => {
                                                     <Col md={2} className="d-flex align-items-center">{chat.name}</Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-end">{`${chat?.maker?.lastname} ${(chat?.maker?.firstname)?.substring(0, 1).toUpperCase()}.
                                 ${(chat?.maker?.patronymic)?.substring(0, 1).toUpperCase()}.
-                               `} <br /> {chat?.maker?.email} <img src={`http://localhost:5050${chat?.maker?.avatar}`} style={{
+                               `} <br /> {chat?.maker?.email} <img src={`https://crm-mm45.onrender.com/${chat?.maker?.avatar}`} style={{
                                                             margin: 'auto 12px', border: '1px solid',
                                                         }} width={'60px'} height={'60px'} alt="" /></Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-center">
@@ -324,7 +324,7 @@ const Chat = () => {
                                                     </Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-end">{`${chat?.recipient?.lastname} ${(chat?.recipient?.firstname)?.substring(0, 1).toUpperCase()}.
                                 ${(chat?.recipient?.patronymic)?.substring(0, 1).toUpperCase()}.
-                               `} <br /> {chat?.recipient?.email} <img src={`http://localhost:5050${chat?.recipient?.avatar}`} style={{
+                               `} <br /> {chat?.recipient?.email} <img src={`https://crm-mm45.onrender.com/${chat?.recipient?.avatar}`} style={{
                                                             margin: 'auto 12px', border: '1px solid',
                                                         }} width={'60px'} height={'60px'} alt="" /></Col>
                                                 </Row>

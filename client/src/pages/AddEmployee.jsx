@@ -120,7 +120,7 @@ const AddEmployee = () => {
 
                                     <Row>
                                         <Col className="">
-                                            <img src={`http://localhost:5050${mes?.avatar}`} width={'100px'} height={'100px'} style={{border: '1px solid blue', margin: '8px auto'}} alt="" />
+                                            <img src={`https://crm-mm45.onrender.com/${mes?.avatar}`} width={'100px'} height={'100px'} style={{border: '1px solid blue', margin: '8px auto'}} alt="" />
                                             <h6>{mes?.lastname} {mes?.firstname} {mes?.patronymic}</h6>
                                             <hr />
                                             <p><Envelope size={'28px'} color="#5667FF" /> &nbsp;{mes?.email}</p>

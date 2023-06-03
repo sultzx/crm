@@ -134,7 +134,7 @@ const Profile = () => {
                         Бейнеңіз
                     </label>
                     <img src={
-                        data?.avatar ? `http://localhost:5050${data?.avatar}` :
+                        data?.avatar ? `https://crm-mm45.onrender.com/${data?.avatar}` :
                             "https://t3.ftcdn.net/jpg/05/60/26/08/360_F_560260880_O1V3Qm2cNO5HWjN66mBh2NrlPHNHOUxW.jpg"}
                         className="flex-fill img-fluid d-block w-100"
                         style={{
