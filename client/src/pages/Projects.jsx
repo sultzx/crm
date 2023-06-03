@@ -34,7 +34,7 @@ const Projects = () => {
                 status: status
             })
         );
-        window.location.assign(`http://localhost:3000/projects`)
+        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/projects`)
     };
 
 
@@ -56,7 +56,7 @@ const Projects = () => {
                 {data?.role == 'manager' &&
                     <Row>
                         <Col md={12} className="text-end">
-                            <button className="signup-btn" onClick={() => { window.location.assign('http://localhost:3000/projects/add') }} style={{
+                            <button className="signup-btn" onClick={() => { window.location.assign('https://phenomenal-figolla-efe241.netlify.app/projects/add') }} style={{
                                 padding: '10px 24px'
                             }}>
                                 Жаңа жоба қосу

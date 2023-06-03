@@ -33,7 +33,7 @@ const Departments = () => {
                 name: name && name 
             })
         );
-        window.location.assign(`http://localhost:3000/departments`)
+        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/departments`)
     };
 
 
@@ -92,7 +92,7 @@ const Departments = () => {
                                         <Col md={12}>
                                             <button style={{padding: '8px 24px'}}
                                             onClick={() => {
-                                                window.location.assign(`http://localhost:3000/departments/${dep?._id}`)
+                                                window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/departments/${dep?._id}`)
                                             }}
                                             className="signup-btn">Бөлімге кіру</button>
                                         </Col>

@@ -70,7 +70,7 @@ const Main = () => {
                             <button className="signup-btn" style={{
                                 padding: '8px 24px'
                             }} onClick={() => {
-                                window.location.assign('http://localhost:3000/my-orders')
+                                window.location.assign('https://phenomenal-figolla-efe241.netlify.app/my-orders')
                             }}>Тапсырыс беру</button>
                             </div>
                                               </Col>

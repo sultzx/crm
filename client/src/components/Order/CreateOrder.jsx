@@ -66,7 +66,7 @@ const CreateOrder = () => {
             })
         );
 
-        window.location.assign('http://localhost:3000/my-orders')
+        window.location.assign('https://phenomenal-figolla-efe241.netlify.app/my-orders')
 
         alert(fetchData.payload.message)
 

@@ -78,7 +78,7 @@ const Signup = () => {
     };
 
     if (isAuth) {
-        window.location.assign('http://localhost:3000/')
+        window.location.assign('https://phenomenal-figolla-efe241.netlify.app/')
     }
 
     return (

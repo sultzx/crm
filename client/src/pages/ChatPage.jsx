@@ -112,7 +112,7 @@ const Chat = () => {
             window.localStorage.setItem("token", fetchData.payload.token);
         }
 
-        window.location.assign('http://localhost:3000/chat-page')
+        window.location.assign('https://phenomenal-figolla-efe241.netlify.app/chat-page')
     };
 
     return (<>
@@ -255,7 +255,7 @@ const Chat = () => {
 
                                                 <Row>
                                                     <Col md={1} className="d-flex align-items-center"><Envelope color="gray" size="42px"  onClick={() => {
-                                                        window.location.assign(`http://localhost:3000/chat-page/chat/${chat?._id}`)
+                                                        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/chat-page/chat/${chat?._id}`)
                                                     }} /></Col>
                                                     <Col md={2} className="d-flex align-items-center">{chat.name}</Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-end">{`${chat?.recipient?.lastname} ${(chat?.recipient?.firstname)?.substring(0, 1).toUpperCase()}.
@@ -311,7 +311,7 @@ const Chat = () => {
                                                     <Col md={1} className="d-flex align-items-center"><Envelope style={{
                                                         color: 'gray',
                                                     }} size="42px" onClick={() => {
-                                                        window.location.assign(`http://localhost:3000/chat-page/chat/${chat?._id}`)
+                                                        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/chat-page/chat/${chat?._id}`)
                                                     }} className="chat-open-icon" /></Col>
                                                     <Col md={2} className="d-flex align-items-center">{chat.name}</Col>
                                                     <Col md={3} className="d-flex align-items-center justify-content-end">{`${chat?.maker?.lastname} ${(chat?.maker?.firstname)?.substring(0, 1).toUpperCase()}.

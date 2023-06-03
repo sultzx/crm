@@ -93,7 +93,7 @@ const AddEmployee = () => {
                 client: client && client,
             })
         );
-        window.location.assign(`http://localhost:3000/projects`)
+        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/projects`)
     };
 
 

@@ -65,7 +65,7 @@ const Chat = () => {
             window.localStorage.setItem("token", fetchData.payload.token);
         }
 
-        window.location.assign('http://localhost:3000/chat-page/chat/' + chat?._id)
+        window.location.assign('https://phenomenal-figolla-efe241.netlify.app/chat-page/chat/' + chat?._id)
     };
 
     console.log(chat && chat)

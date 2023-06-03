@@ -72,7 +72,7 @@ const OrderPage = () => {
                                         margin: '12px auto 0 auto'
                                     }} className="signup-btn" onClick={() => {
                                         window.location.assign(
-                                            'http://localhost:3000/my-orders/create'
+                                            'https://phenomenal-figolla-efe241.netlify.app/my-orders/create'
                                         )
                                     }} >
                                     {"Жаңа тапсырыс құру"}

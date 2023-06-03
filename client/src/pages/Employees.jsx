@@ -39,7 +39,7 @@ const Employees = () => {
             })
         );
 
-        window.location.assign(`http://localhost:3000/employees`)
+        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/employees`)
 
     };
 

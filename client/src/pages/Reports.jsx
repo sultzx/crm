@@ -84,7 +84,7 @@ const Reports = () => {
                                 margin: '12px auto 0 auto'
                             }} className="signup-btn" onClick={() => {
                                 window.location.assign(
-                                    'http://localhost:3000/reports/create'
+                                    'https://phenomenal-figolla-efe241.netlify.app/reports/create'
                                 )
                             }} >
                             {"Жаңа есеп құру"}

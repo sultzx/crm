@@ -66,7 +66,7 @@ const CreateReport = () => {
 
         alert(fetchData?.payload?.message)
 
-        window.location.assign('http://localhost:3000/reports')
+        window.location.assign('https://phenomenal-figolla-efe241.netlify.app/reports')
 
         if ("token" in fetchData.payload) {
             window.localStorage.setItem("token", fetchData.payload.token);

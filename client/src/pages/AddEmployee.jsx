@@ -54,7 +54,7 @@ const AddEmployee = () => {
                 employee_id: employee && employee 
             })
         );
-        window.location.assign(`http://localhost:3000/departments/${id}`)
+        window.location.assign(`https://phenomenal-figolla-efe241.netlify.app/departments/${id}`)
     };
 
     console.log(departments && departments)
