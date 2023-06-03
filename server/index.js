@@ -1,6 +1,5 @@
 import express from 'express'
 import mongoose from 'mongoose'
-import config from 'config'
 import cors from 'cors'
 
 import userRouter from './route/user.route.js'
@@ -13,7 +12,7 @@ import reportRouter from './route/report.route.js'
 
 const app = express()
 
-const PORT = config.get('port')
+const PORT = 5050
 
 app.use(express.json())
 
@@ -25,7 +24,7 @@ app.use(cors())
 const start = async () => {
     try {
         await mongoose.set('strictQuery', true)
-        await mongoose.connect(config.get('mongodbUrl'))
+        await mongoose.connect("mongodb+srv://crmuser:l5JLvdTVBxnmDod0@cluster0.ja1ehfb.mongodb.net/crm_DB?authMechanism=DEFAULT")
         console.log(`database OK\tname: ${mongoose.connection.name}`)
     } catch (error) {
         console.log(`database error\tmessage: ${error.message}`)

@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 import User from "../model/User.js"
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
-import config from 'config'
+
 
 export const signup = async (req, res) => {
     try {
@@ -35,7 +35,7 @@ export const signup = async (req, res) => {
         {
           _id: user._id,
         },
-        config.get("jwt_key"),
+        "qwerty",
         { expiresIn: "4h" }
       );
   
@@ -100,7 +100,7 @@ export const signin = async (req, res) => {
             {
               _id: user._id,
             },
-            config.get("jwt_key"),
+            "qwerty",
             {
               expiresIn: "1h",
             }
