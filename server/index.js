@@ -9,6 +9,7 @@ import chatRouter from './route/chat.route.js'
 import departmentRouter from './route/department.route.js'
 import projectRouter from './route/project.route.js'
 import reportRouter from './route/report.route.js'
+import checkRouter from './route/checkRouter.js'
 
 const app = express()
 
@@ -30,6 +31,7 @@ const start = async () => {
         console.log(`database error\tmessage: ${error.message}`)
     }
 
+    app.use('/', checkRouter)
     app.use('/api/upload', uploadRouter)
     app.use('/api/user', userRouter)
     app.use('/api/order', orderRouter)
